@@ -1,0 +1,4 @@
+Name:Trishna
+Branch:cse
+Primary domain:backend
+Secondary domain:aiml
