@@ -5,8 +5,12 @@ int main(){
     int n,count=0,p;
     cout<<"Enter the number: ";
     cin>>n;
-    p=n;
-    for(int i=n;i!=0;i/=10){
+    if(n<0){
+        p=-n;
+    }else{
+        p=n;
+    }
+    for(int i=p;i!=0;i/=10){
         count++;
     }
     int a[count];

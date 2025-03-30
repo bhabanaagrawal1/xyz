@@ -2,14 +2,14 @@
 using namespace std;
 int main(){
     int n,p,i,count=0;
-    cout<<"Enter the number: ";
+    cout<<"Enter a positive number: ";
     cin>>n;
     p=n;
     //Binary Conversion
     if(n==0){
         cout<<"The binary conversion of "<<n<<" is "<<0;
     }else{
-    for(i=n;i!=0;i/=2){
+    for(i=p;i!=0;i/=2){
         count++;
     }
     int a[count];
