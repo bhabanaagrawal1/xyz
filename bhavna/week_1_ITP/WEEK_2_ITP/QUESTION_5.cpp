@@ -2,7 +2,7 @@
 #include<climits>
 using namespace std;
 int main(){
-    int m,i,p,maxm,smax;
+    int m,i,p,maxm=INT_MIN,smax=INT_MIN;
     cout<<"Enter the number of elements in the array: ";
     cin>>m;
     cout<<"Enter the elements in the array: ";
